@@ -1,7 +1,8 @@
 
 import About from "./components/About/About";
 import Masthead from "./components/Masthead/Masthead";
-import SignUp from "./components/Sign-up/SignUp"
+import SignUp from "./components/Sign-up/SignUp";
+import Login from "./components/Login/Login";
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Masthead />
       <SignUp/>
+      <Login/>
       <About />
     </div>
   );
